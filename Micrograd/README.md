@@ -32,8 +32,3 @@ To run each file you'll have to run each file individually
 the inspiration for this project was from andrej karpathy's "Neural Networks: Zero to Hero
 "
 
-
-## Authors
-
-- [@surajssamal](https://www.github.com/surajssamal)
-
