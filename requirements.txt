@@ -1,0 +1,8 @@
+datasets==3.2.0
+graphviz==0.20.3
+numpy==2.2.2
+tiktoken==0.8.0
+torch==2.4.1+cu118
+tqdm==4.67.0
+transformers==4.48.0
+yfinance==0.2.50
