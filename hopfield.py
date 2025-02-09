@@ -19,14 +19,6 @@ class Hopfield:
                 weighted_sum = np.dot(self.weights[i],recalled_pattern)
                 recalled_pattern[i] = 1 if weighted_sum >=0 else -1
         return recalled_pattern
-
-
-
-
-
-
-
-
 if __name__ == "__main__":
     
     pattern = np.array([[1, -1, 1, -1, 1, -1, 1, -1],[-1, -1, 1, 1, -1, -1, 1, 1]])
