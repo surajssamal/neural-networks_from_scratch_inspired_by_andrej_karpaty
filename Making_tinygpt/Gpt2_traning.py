@@ -71,7 +71,7 @@ class Block(nn.Module):
         self.ln_2 = nn.LayerNorm(config.n_embd)
         self.mlp = MLP(config)
     def forward(self, x):
-        x = x + self.attn(self.ln_1(x)) #this is Resedal connection aka RESNET
+        x = x + self.attn(self.ln_1(x)) #this is Resedual connection aka RESNET
         x = x + self.mlp(self.ln_2(x))
         return x
 
